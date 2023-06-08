@@ -1,1 +1,2 @@
-0-iam_betty file is an executable script that switches current user to another user 
+# ~ 0-iam_betty 
+This file is an executable script that switches current user to another user 
