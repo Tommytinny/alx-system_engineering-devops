@@ -15,4 +15,6 @@ This file is an executable script that adds execute permission to the owner and 
 # File: 7-everybody
 This is a script file that adds execution permission to the owner, the group owner and the other users, to the file hello.
 # File: 8-James_Bond
-This script file sets permission to file hello. 
+This file script sets permission to file hello.
+# File: 9-John_Doe
+This file script sets the mode of the file 
