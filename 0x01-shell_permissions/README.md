@@ -25,4 +25,8 @@ This file script creates a directory called my_dir with permissions 751 in the w
 # File: 13-change_group
 This file script changes the group owner to school for the file hello.
 # File: 100-change_owner_and_group
-This file script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory. 
+This file script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+# File: 101-symbolic_link_permissions
+This file script changes the owner and the group owner of _hello to vincent and staff respectively.
+# File: 102-if_only
+This file script changes the owner of the file hello to betty only if it is owned by the user guillaume. 
