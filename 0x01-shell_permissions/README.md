@@ -13,4 +13,6 @@ This file is an executable script that adds execute permission to the owner of t
 # File: 6-multiple_permissions
 This file is an executable script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 # File: 7-everybody
-This is a script file that adds execution permission to the owner, the group owner and the other users, to the file hello. 
+This is a script file that adds execution permission to the owner, the group owner and the other users, to the file hello.
+# File: 8-James_Bond
+This script file sets permission to file hello. 
