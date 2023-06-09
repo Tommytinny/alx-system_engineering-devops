@@ -23,4 +23,6 @@ This file script adds execute permission to all subdirectories of the current di
 # File: 12-directory_permissions
 This file script creates a directory called my_dir with permissions 751 in the working directory.
 # File: 13-change_group
-This file script changes the group owner to school for the file hello. 
+This file script changes the group owner to school for the file hello.
+# File: 100-change_owner_and_group
+This file script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory. 
