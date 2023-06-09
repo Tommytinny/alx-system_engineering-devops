@@ -17,4 +17,6 @@ This is a script file that adds execution permission to the owner, the group own
 # File: 8-James_Bond
 This file script sets permission to file hello.
 # File: 9-John_Doe
-This file script sets the mode of the file 
+This file script sets the mode of the file.
+# File: 11-directories_permissions
+This file script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. 
