@@ -19,4 +19,6 @@ This file script sets permission to file hello.
 # File: 9-John_Doe
 This file script sets the mode of the file.
 # File: 11-directories_permissions
-This file script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. 
+This file script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+# File: 12-directory_permissions
+This file script creates a directory called my_dir with permissions 751 in the working directory. 
