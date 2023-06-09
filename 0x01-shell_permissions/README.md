@@ -5,6 +5,8 @@ This file is an executable script that prints the effective username of the curr
 # File: 2-groups
 This file is an executable script that prints all the groups the current user is part of.
 # File: 3-new_owner
-This file is an executable script changes the owner of the file hello to the user betty.
+This file is an executable script that changes the owner of the file hello to the user betty.
 # File: 4-empty
 This file is an executable script that creates an empty file called hello. 
+# File: 5-execute
+This file is an executable script that adds execute permission to the owner of the file hello
