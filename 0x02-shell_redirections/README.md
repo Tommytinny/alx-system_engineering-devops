@@ -20,3 +20,8 @@ This file script writes into the file ls_cwd_content the result of the command l
 This file script duplicates the last line of the file iacta
 # File: 10-no_more_js
 This file script deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+# File: 11-directories
+This file script counts the number of directories and sub-directories in the current directory.
+
+The current and parent directories should not be taken into account
+Hidden directories should be counted
