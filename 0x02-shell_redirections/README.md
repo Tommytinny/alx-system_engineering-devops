@@ -6,3 +6,5 @@ This file script displays a confused smiley "(Ôo)'.
 This file script display the content of the /etc/passwd file.
 # File: 3-twofiles
 This file script display the content of /etc/passwd and /etc/hosts
+# File: 4-lastlines
+This file script display the last 10 lines of /etc/passwd
