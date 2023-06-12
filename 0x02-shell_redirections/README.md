@@ -12,3 +12,5 @@ This file script display the last 10 lines of /etc/passwd
 This file script display the first 10 lines of /etc/passwd
 # File: 6-third_line
 This file script display the third line of the file "iacta".
+# File: 7-file
+This file script creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
