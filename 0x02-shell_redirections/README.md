@@ -25,3 +25,10 @@ This file script counts the number of directories and sub-directories in the cur
 
 The current and parent directories should not be taken into account
 Hidden directories should be counted
+# File: 12-newest_files
+This file script Create a script that displays the 10 newest files in the current directory.
+
+Requirements:
+
+One file per line
+Sorted from the newest to the oldest
