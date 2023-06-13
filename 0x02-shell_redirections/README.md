@@ -36,3 +36,5 @@ Sorted from the newest to the oldest
 This file script takes a list of words as input and prints only words that appear exactly once.
 # File: 14-findthatword
 This file script display lines containing the pattern “root” from the file /etc/passwd
+# File: 15-countthatword
+This file script display the number of lines that contain the pattern “bin” in the file /etc/passwd
