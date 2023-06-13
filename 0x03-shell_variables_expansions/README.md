@@ -9,3 +9,5 @@ This file script prints hello user, where user is the current Linux user.
 This file script Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 # File: 3-paths
 This file script counts the number of directories in the PATH.
+# File: 4-global_variables
+This file script lists environment variables.
