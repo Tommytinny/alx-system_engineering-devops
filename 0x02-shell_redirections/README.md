@@ -56,3 +56,8 @@ This file script replace all characters A and c from input to Z and e respective
 This file script removes all letters c and C from input.
 # File: 21-reverse
 This file script reverse its input.
+# File: 22-users_and_homes
+This file script displays all users and their home directories, sorted by users.
+
+Based on the the /etc/passwd file
+
