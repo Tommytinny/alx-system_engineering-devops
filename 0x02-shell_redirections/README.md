@@ -54,3 +54,5 @@ include capital letters as well
 This file script replace all characters A and c from input to Z and e respectively.
 # File: 20-hiago
 This file script removes all letters c and C from input.
+# File: 21-reverse
+This file script reverse its input.
