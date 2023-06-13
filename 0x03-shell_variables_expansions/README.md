@@ -11,3 +11,5 @@ This file script Add /action to the PATH. /action should be the last directory t
 This file script counts the number of directories in the PATH.
 # File: 4-global_variables
 This file script lists environment variables.
+# File: 5-local_variables
+This file script lists all local variables and environment variables, and functions.
