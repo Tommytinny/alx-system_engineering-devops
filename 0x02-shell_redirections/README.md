@@ -32,3 +32,7 @@ Requirements:
 
 One file per line
 Sorted from the newest to the oldest
+# File: 13-unique
+This file script takes a list of words as input and prints only words that appear exactly once.
+# File: 14-findthatword
+This file script display lines containing the pattern “root” from the file /etc/passwd
