@@ -57,3 +57,5 @@ This script converts a number from base 10 to base 16.
     The script should display the number in base 16, followed by a new line
 # File: 101-rot13
 This script encodes and decodes text using the rot13 encryption. Assume ASCII.
+# File: 102-odd
+This script prints every other line from the input, starting with the first line.
