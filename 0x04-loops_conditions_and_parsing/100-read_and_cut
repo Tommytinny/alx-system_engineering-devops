@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# this script displays the content of the file /etc/passwd
+#+ displays only the:
+#+ username, user id, Home directory path for the user
+content=$(cat /etc/passwd)
+for i in "$content"; do
+	echo "$i" | cut -d ":" -f 1,3,6
+done
