@@ -3,6 +3,11 @@ package { 'nginx':
   ensure => '1.18.0',
 }
 
+service { 'nginx':
+  ensure  => running,
+  require => Package['nginx'],
+}
+
 exec { 'set_hello_world':
   command => 'echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html',
   require => Package['nginx'],
