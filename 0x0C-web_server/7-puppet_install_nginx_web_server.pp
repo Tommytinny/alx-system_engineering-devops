@@ -10,7 +10,7 @@ exec { 'set_hello_world':
 
 exec { 'set_redirect':
   command => "sudo sed -i '\\|root /var/www/html;|a\\\\tlocation /redirect_me/ {\\n\\t\\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4\\n\\t}' /etc/nginx/sites-available/default",
-  require => require => Package['nginx'],
+  require => Package['nginx'],
 }
 
 exec { 'restart nginx':
