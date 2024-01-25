@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Install nginx on server with default homepage string
+sudo apt-get update
+
+sudo apt-get -y install nginx
+
+echo 'Hello World!' | sudo tee /var/www/html/index.nginx-debian.html
+
+sudo service nginx restart
