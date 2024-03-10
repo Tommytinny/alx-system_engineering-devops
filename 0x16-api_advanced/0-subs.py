@@ -1,15 +1,13 @@
 #!/usr/bin/python3
 """module for Reddit API"""
+import requests
 
 
 def number_of_subscribers(subreddit):
     """return numbers of subscribers"""
-    import requests
-
-
     r = requests.get(
         "https://www.reddit.com/r/{}/about.json".format(subreddit),
-        url, headers={"User-Agent": "MyCustomUserAgent"},
+        url, headers={"User-Agent": "Custom"},
         allow_redirects=False
         )
     if r.status_code >= 300:
