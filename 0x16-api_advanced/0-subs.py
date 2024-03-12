@@ -12,7 +12,10 @@ def number_of_subscribers(subreddit):
             headers=header,
             allow_redirects=False
             )
-    if res.status_code >= 300:
+    if subreddit is None or not instance(subreddit, str):
         return 0
-    
-    return res.json().get("data").get("subscribers")
+
+    try:
+        return res.json().get("data").get("subscribers")
+    except Exception as e:
+        return 0
