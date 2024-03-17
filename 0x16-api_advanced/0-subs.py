@@ -12,7 +12,11 @@ def number_of_subscribers(subreddit):
     return numbers of subscribers
     """
 
-    user_agent = {'User-agent': 'Google Chrome Version 81.04044.129'}
+    user_agent = {
+        'User-agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) \
+        Gecko/20100101 Firefox/123.0'
+    }
     url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
     results = get(
         url,
