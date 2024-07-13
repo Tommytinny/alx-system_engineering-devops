@@ -35,10 +35,10 @@ defaults
 
 frontend front_proxy
 	bind *:80
-	bind *:443 ssl crt /etc/haproxy/certs/www.akintomideab.tech.pem
+	bind *:443 ssl crt /etc/letsencrypt/live/www.akintomideab.tech/haproxy.pem
 	default_backend my_servers
 
 backend my_servers
 	balance roundrobin
-	server web1 100.26.153.245:80
-	server web2 100.26.162.10:80
+	server web1 18.207.233.172:80
+        server web2 34.201.165.206:80
