@@ -12,15 +12,12 @@ def number_of_subscribers(subreddit):
     (not active users, total subscribers) for a given subreddit.
     """
 
-    if subreddit is None or not isinstance(subreddit, str):
-        return 0
-
     user_agent = {'User-agent': 'My-User-Agent'}
     url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
-    response = get(url, headers=user_agent, allow_redirects=False)
+    response = get(url, headers=user_agent,
+                   allow_redirects=False)
     results = response.json()
-
+    
     if response.status_code >= 300:
         return 0
-    
     return results.get('data').get('subscribers')
